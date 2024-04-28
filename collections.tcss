@@ -1,0 +1,27 @@
+Screen{  
+  layout: vertical;
+  }
+
+VerticalScroll {
+    width: auto;
+    height: auto;
+    background: $boost;
+    padding: 1;
+}
+
+.pane{
+    height: 100%;
+    row-span: 2;
+    tint: magenta 40%;
+}
+CheckBox{
+  height: 10;
+}
+
+Collections{
+  dock: left;
+  row-span: 3;
+  width: 15%;
+  height: 100%;
+  overflow-y: auto;
+}
